@@ -1,0 +1,187 @@
+html {
+    height: 100%;
+}
+
+.header {
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    background-color: BLACK;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titles {
+    color: white;
+    font-size: 25px;
+    vertical-align: bottom;
+    text-decoration: underline;
+}
+
+.titleText>p {
+    color: black;
+}
+
+.titleTextParent {
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+}
+
+.titleText {
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 40%;
+    background-color: white;
+}
+
+.questionWrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.questionBackground {
+    position: absolute;
+    z-index: -1;
+}
+
+.question {
+    position: absolute;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.answers {
+    display: flex;
+    z-index: 1;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    padding-top: 90px;
+}
+
+.answers>button {
+    width: 300px;
+    height: 100px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: black solid 3px;
+    background-color: rgb(0, 192, 135);
+    color: rgb(0, 0, 0);
+    margin: 10px;
+}
+
+.answers>button:hover {
+    background-color: rgb(255, 123, 0);
+}
+
+body {
+    background-image: url("images/background.jpg");
+    background-size: cover;
+}
+
+.scoreTable,
+th,
+td {
+    background-color: black;
+    color: rgb(95, 46, 46);
+    border: rgb(44, 42, 165) solid 5px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.startBtn {
+    width: 300px;
+    height: 100px;
+    font-size: 30px;
+    border-radius: 10px;
+    border: black solid 3px;
+    background-color: rgb(0, 192, 135);
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.startBtn:hover {
+    background: linear-gradient(234deg, #ff0000, #e4ff00, #25ff00);
+    background-size: 600% 600%;
+    animation: answerHover 9s ease infinite;
+    -webkit-animation: answerHover 9s ease infinite;
+    -moz-animation: answerHover 9s ease infinite;
+    animation-fill-mode: forwards;
+}
+
+.disabled {
+    pointer-events: none;
+    animation: disabledAnswer 0.5s forwards;
+}
+
+.healthDiv {
+    border: black 2px;
+    background-color: rgb(0, 192, 135);
+    width: 10%;
+    height: 5%;
+}
+
+.healthDivImg {
+    float: left;
+    margin-right: 10px;
+}
+
+.healthDivText {
+    font-size: 60px;
+}
+
+@keyframes disabledAnswer {
+    0% {
+        background-color: rgb(0, 192, 135);
+    }
+    100% {
+        background-color: gray;
+    }
+}
+
+@-webkit-keyframes answerHover {
+    10% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes answerHover {
+    10% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes answerHover {
+    10% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
