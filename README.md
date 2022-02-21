@@ -37,7 +37,7 @@ Hra se po vyčerpání otázek zastaví, bylo to na rychlo. <br>
 
 - Obrázky: Adam Šácha, Michal Kolumpek
 
-- Třídní otázky: Michal Kolumpek, Lukáš Fidrant, Adam Šácha
+- Třídní otázky: Michal Kolumpek, Lukáš Anonym, Adam Šácha
 
 - Zvuk: Michal Kolumpek
 
