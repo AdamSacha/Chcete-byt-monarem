@@ -9,7 +9,7 @@ Něco jako chcete být milionářem ale scuffed.
 
 Dělali jsme to jako hru na občanskou výchovu.
 
-[Odkaz na hru](https://milonar.adamozcz.repl.co/)
+[Odkaz na hru](https://adamsacha.github.io/Chcete-byt-monarem/)
 
 ## Změna otázek
 
